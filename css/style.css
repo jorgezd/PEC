@@ -1,0 +1,330 @@
+
+/* Clases */
+
+.elementoListaMenu {
+    list-style-type: none;
+    color: #cacaca;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    float: left;
+    margin-left: 6%;
+    margin-top: 5px;
+}
+
+.elementoEnlaceMenu {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.elementoEnlaceMenu:hover {
+    color: white;
+    /*Chrome, Safari*/
+    -webkit-transition: color 0.2s linear 0s;
+    /*Firefox*/
+    -moz-transition: color 0.2s linear 0s;
+    /*Opera*/
+    -o-transition: color 0.2s linear 0s;
+    /*Standard*/
+    transition: color 0.2s linear 0s;
+}
+
+.tarjetaCoche {
+    width: 170px;
+    height: 300px;
+    padding: 0 15px 0 15px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    margin:25px 5% 10px 5%;
+    float: left;
+}
+
+.cabecera {
+    width: 100%;
+    height: 30px;
+    margin-top: 55px;
+    margin-bottom: 0;
+    padding-top: 7px;
+    background-color: #f5f5f7;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+}
+
+.entradaArticulo {
+    float: left;
+    width: 350px;
+    height: 300px;
+    margin: 75px 15px;
+    padding: 10px;
+    border-bottom: black 3px solid;
+}
+
+.entradaEnlaceArticulo {
+    text-decoration: none;
+    color: black;
+}
+
+.entradaEnlaceArticulo:hover {
+    color: gray;
+    /*Chrome, Safari*/
+    -webkit-transition: color 0.2s linear 0s;
+    /*Firefox*/
+    -moz-transition: color 0.2s linear 0s;
+    /*Opera*/
+    -o-transition: color 0.2s linear 0s;
+    /*Standard*/
+    transition: color 0.2s linear 0s;
+}
+
+.tarjetaArticulo {
+    width: 55%;
+    margin: 25px 5px 0 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.tarjetaArticulo img {
+    width: 450px;
+}
+
+.elementoContacto {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 37% 0 0 35px;
+}
+
+.elementoEnlaceContacto {
+    text-decoration: none;
+    color: black;
+}
+
+.elementoEnlaceContacto:hover {
+    color: #fbfbfd;
+    /*Chrome, Safari*/
+    -webkit-transition: color 0.2s linear 0s;
+    /*Firefox*/
+    -moz-transition: color 0.2s linear 0s;
+    /*Opera*/
+    -o-transition: color 0.2s linear 0s;
+    /*Standard*/
+    transition: color 0.2s linear 0s;
+}
+
+.tarjetaContacto {
+    width: 750px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.imagenTarjetaCoche {
+    display: block;
+    margin: 1px auto;
+    width: 75px;
+    margin-top: 10px;
+}
+
+.coche {
+    width: 900px;
+    height: 100px;
+    border: black solid 1px;
+}
+
+/* Fin clases */
+
+html {
+    margin: 0;
+    min-width: 1000px;
+}
+
+body {
+    margin: 0;
+    /*background-image: url("../img/car-pattern-1.png");*/
+    background-color: #fbfbfd;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    background-color: #333333;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+li#logoMenu {
+    margin-top: 0;
+}
+
+li#titulo {
+    font-size: medium;
+}
+
+main {
+    background-image: url(../img/fondoInicio.jpg);
+    width: 100%;
+    height: 900px;
+    padding-top: 1px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#fraseInicio {
+    color: #f5f5f7;
+    margin: 150px auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px white;
+}
+
+footer {
+    background-color: #333333;
+    height: 35px;
+    width: 100%;
+    color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+}
+
+section#menuArticulos {
+    height: 650px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section nav ul li {
+    list-style-type: none;
+}
+
+section#cajaContacto{
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 100px;
+}
+
+div#subcajaContacto {
+    width: 600px;
+    margin: auto;
+}
+
+a img {
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table td{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    width: 100px;
+    padding: 8px;
+}
+
+section#tarjetasDeCoches {
+    width: fit-content;
+    height: 750px;
+}
+
+div#tablaCoches {
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    margin-bottom: 150px;
+}
+
+h2 {
+    margin-left: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+div#videoInicio {
+    width: 750px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+video {
+    width: 750px;
+}
+
+div#instruccionesJuego {
+    margin: 100px auto;
+    width: 1000px;
+}
+
+div#cajaJuego {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border-right: black dashed 5px;
+    width: 1000px;
+    height: 250px;
+}
+
+div#coche1 {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+div#coche2 {
+    position: absolute;
+    top: 125px;
+    left: 0px;
+}
+
+div#controlesJuego {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+button#reset {
+    margin-right: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+div#cajaExplicacion {
+    width: 1000px;
+    margin: 100px auto;
+}
